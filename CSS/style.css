@@ -113,6 +113,10 @@ input {
     transition: all 0.3s ease-in-out;
 }
 
+.input-container {
+    position: relative;
+}
+
 .info-input {
     background: #FFFFFF;
     margin-bottom: 16px;
@@ -121,6 +125,26 @@ input {
     letter-spacing: 0.25px;
     color: #3D3B48;
     padding: 14px 19.41px;
+}
+
+label {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: right;
+    color: #FF7979;
+    position: absolute;
+    right: 0;
+    top: 62px;
+    display: none;
+}
+
+.error {
+    position: absolute;
+    right: 27px;
+    top: 16px;
+    display: none;
 }
 
 .info-input::placeholder {

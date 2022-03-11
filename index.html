@@ -26,13 +26,30 @@
       <button><span>Try it free 7 days</span> then $20/mo. thereafter</button>
 
       <section>
-        <form name="form">
-          <input class="info-input" type="text" placeholder="First Name" /> 
-          <input class="info-input" type="text" placeholder="Last Name" /> 
-          <input class="info-input" type="email" placeholder="Email Address" />
-          <input class="info-input" type="password" placeholder="Password" />
-          <input class="submit-input" type="submit" value="Claim your free trial" /> 
-        </form>
+        <form name="form" novalidate>
+          <div class="input-container">
+            <input class="info-input" name="f-name" type="text" placeholder="First Name" />
+            <label for="f-name">First Name cannot be empty</label>
+            <img src="./images/icon-error.svg" class="error" alt="" aria-hidden="true"/>
+          </div>
+          <div class="input-container">
+            <input class="info-input" name="l-name" type="text" placeholder="Last Name" />
+            <label for="l-name">Last Name cannot be empty</label>
+            <img src="./images/icon-error.svg" class="error" alt="" aria-hidden="true"/>
+          </div>
+          <div class="input-container">
+            <input class="info-input" name="email" type="email" placeholder="Email Address" />
+            <label for="email">Email cannot be empty</label>
+            <img src="./images/icon-error.svg" class="error" alt="" aria-hidden="true"/>
+          </div>
+          <div class="input-container">
+            <input class="info-input" name="password" type="password" placeholder="Password" />
+            <label for="password">Password cannot be empty</label>
+            <img src="./images/icon-error.svg" class="error" alt="" aria-hidden="true"/>
+          </div>
+          <input class="submit-input" action="#" type="submit" value="Claim your free trial" /> 
+        </form> 
+        
 
         <p>By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
 

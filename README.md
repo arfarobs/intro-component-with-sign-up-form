@@ -23,6 +23,7 @@ Aria Roles/labels
 section or article
 check form and inputs attributes
 label or paragraph?
+shorthand backgrounds
 ### The challenge
 
 Users should be able to:
