@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-weight: 700;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Medium.ttf);
+    font-weight: 500;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Regular.ttf);
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-SemiBold.ttf);
+    font-weight: 600;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-style: normal;
+}
+
+body {
+    background-color: hsl(0, 100%, 74%) ;   
+}
+
+.bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/*Header*/
+
+header {
+    margin: 88px 24px 64px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.291667px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    height: 80px;
+}
+
+header p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+/*Main*/
+
+main {
+    margin: 64px 24px 68px;
+}
+
+button {
+    background: #5E54A4;
+    border-radius: 10px;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.267857px;
+    color: #FFFFFF;
+    padding: 18px 68px 18px 67px;
+}
+
+button span {
+    font-weight: 600;
+}
+
+/*Section*/
+
+section {
+    padding: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+    border-radius: 10px;
+}
+
+input {
+    border-radius: 5px;
+    width: 279px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.info-input {
+    background: #FFFFFF;
+    margin-bottom: 16px;
+    border: 1px solid #DEDEDE;
+    font-family: 'Poppins';
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    color: #3D3B48;
+    padding: 14px 19.41px;
+}
+
+.submit-input {
+    background: #38CC8B;
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 15px 19.41px;
+    margin-bottom: 8px;
+}
+
+section p {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 21px;
+    color: #BAB7D4;
+    text-align: center;
+    height: 42px;
+    width: 249px;
+    margin: 0 auto;
+}
+
+section p span {
+    font-weight: 700;
+    color: #FF7979;
+}
