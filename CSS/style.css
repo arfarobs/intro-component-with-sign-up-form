@@ -110,6 +110,7 @@ input {
     width: 279px;
     font-weight: 600;
     line-height: 26px;
+    transition: all 0.3s ease-in-out;
 }
 
 .info-input {
@@ -122,6 +123,15 @@ input {
     padding: 14px 19.41px;
 }
 
+.info-input::placeholder {
+    opacity: 0.75;
+}
+
+.info-input:hover, .info-input:focus-visible {
+    border: 1px solid #5E54A4;
+    outline: none;
+}
+
 .submit-input {
     background: #38CC8B;
     box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
@@ -131,6 +141,11 @@ input {
     text-transform: uppercase;
     padding: 15px 19.41px;
     margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.submit-input:hover, .submit-input:focus-visible {
+    background-color: #77E2B3;
 }
 
 section p {
