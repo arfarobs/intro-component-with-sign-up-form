@@ -36,14 +36,12 @@
 }
 
 body {
-    background-color: hsl(0, 100%, 74%) ;   
-}
-
-.bg-img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
+    background-color: hsl(0, 100%, 74%);
+    background-image: url('../images/bg-intro-mobile.png');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /*Header*/
@@ -61,6 +59,7 @@ h1 {
     color: #FFFFFF;
     margin-bottom: 16px;
     height: 80px;
+    max-width: 400px;
 }
 
 header p {
@@ -68,12 +67,13 @@ header p {
     font-size: 16px;
     line-height: 26px;
     color: #FFFFFF;
+    max-width: 400px;
 }
 
 /*Main*/
 
 main {
-    margin: 64px 24px 68px;
+    margin: 0 24px 64px;
 }
 
 button {
@@ -88,6 +88,7 @@ button {
     letter-spacing: 0.267857px;
     color: #FFFFFF;
     padding: 18px 68px 18px 67px;
+    width: 327px;
 }
 
 button span {
@@ -101,6 +102,7 @@ section {
     background: #FFFFFF;
     box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
     border-radius: 10px;
+    width: 327px;
 }
 
 input {
@@ -114,7 +116,6 @@ input {
     background: #FFFFFF;
     margin-bottom: 16px;
     border: 1px solid #DEDEDE;
-    font-family: 'Poppins';
     font-size: 14px;
     letter-spacing: 0.25px;
     color: #3D3B48;
@@ -146,4 +147,74 @@ section p {
 section p span {
     font-weight: 700;
     color: #FF7979;
+}
+
+@media only screen and (min-width: 376px) {
+    body{
+        background-image: url('../images/bg-intro-desktop.png');
+        background-repeat: repeat;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    body{
+        flex-direction: row;
+        justify-content: center;
+        min-height: 100vh;
+    }
+
+    header {
+        text-align: left;
+        margin: 0 45px 0 0;
+    }
+
+    main {
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    /*Header*/
+
+    h1 {
+        font-size: 50px;
+        line-height: 55px;
+        letter-spacing: -0.520833px;
+        height: 131px;
+        max-width: 525px;
+        margin-bottom: 11px;
+    }
+
+    header p {
+        max-width: 525px;
+    }
+
+    /*Main*/
+
+    button {
+        width: 540px;
+        padding: 17px 0;
+    }
+
+    /*Section*/
+
+    section {
+        padding: 40px;
+        width: 540px;
+    }
+
+    input {
+        width: 460px;
+    }
+
+    .info-input {
+        margin-bottom: 20px;
+        padding: 14px 32px;
+    }
+
+    section p {
+        line-height: 26px;
+        width: 369px;
+        height: 26px;
+    }
 }
