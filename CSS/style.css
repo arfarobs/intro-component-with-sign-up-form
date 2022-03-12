@@ -211,6 +211,10 @@ section p span {
 }
 
 @media only screen and (min-width: 1440px) {
+    body {
+        align-items: flex-start;
+    }
+
     /*Header*/
 
     h1 {
@@ -220,6 +224,7 @@ section p span {
         height: 131px;
         max-width: 525px;
         margin-bottom: 11px;
+        margin-top: 290px;
     }
 
     header p {
@@ -227,6 +232,10 @@ section p span {
     }
 
     /*Main*/
+
+    main {
+        margin-top: 121px;
+    }
 
     h2 {
         width: 540px;
