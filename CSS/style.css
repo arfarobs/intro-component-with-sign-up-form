@@ -108,7 +108,7 @@ input {
     width: 279px;
     font-weight: 600;
     line-height: 26px;
-    transition: all 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
 }
 
 .input-container {
