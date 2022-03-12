@@ -217,9 +217,9 @@ section p span {
         font-size: 50px;
         line-height: 55px;
         letter-spacing: -0.520833px;
-        height: unset;
+        height: 131px;
         max-width: 525px;
-        margin: 11px;
+        margin-bottom: 11px;
     }
 
     header p {
