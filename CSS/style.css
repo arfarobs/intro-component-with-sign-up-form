@@ -55,7 +55,7 @@ h1 {
     line-height: 36px;
     letter-spacing: -0.291667px;
     color: #FFFFFF;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
     height: 80px;
     max-width: 400px;
 }
@@ -227,7 +227,7 @@ section p span {
         letter-spacing: -0.520833px;
         height: 131px;
         max-width: 525px;
-        margin-bottom: 11px;
+        margin-bottom: 8px;
     }
 
     header p {
