@@ -188,7 +188,8 @@ section p span {
 
 @media only screen and (min-width: 376px) {
     body{
-        background: url('../images/bg-intro-desktop.png') repeat hsl(0, 100%, 74%);
+        background: url('../images/bg-intro-desktop.png') no-repeat hsl(0, 100%, 74%);
+        background-size: cover;
     }
 }
 
@@ -216,9 +217,9 @@ section p span {
         font-size: 50px;
         line-height: 55px;
         letter-spacing: -0.520833px;
-        height: 131px;
+        height: unset;
         max-width: 525px;
-        margin: 0;
+        margin: 11px;
     }
 
     header p {
